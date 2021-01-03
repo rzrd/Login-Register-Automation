@@ -22,5 +22,6 @@
 5. Open the command prompt and cd until the project root directory.
 9. run $ mvn clean install
 10. run $ mvn test
-11. You can also execute the scenarios using: $ -Dcucumber.options="--tags @Test" 
+11. You can also execute the scenarios using: $ -Dcucumber.options="--tags @Test"
+12. after the test finished we can see a set of test report (extentReport, HTML, JSON, Pretty, usage, and Junit) at /Target folder.
 
